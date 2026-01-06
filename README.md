@@ -74,7 +74,7 @@ The agent (`move` method) operates on a strict hierarchy:
 * **Topology:** Fully supports Cyclic/Torus wrapping.
 
 ---
-🎮 Game Engine & GUI Improvements
+## 🎮 Game Engine & GUI Improvements
 Designed and implemented in Ex3Game class.
 
 Beyond the algorithm, this project includes a rich graphical interface using StdDraw:
