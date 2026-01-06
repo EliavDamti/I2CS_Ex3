@@ -7,7 +7,7 @@ public class ManualAlgo implements PacManAlgo{
     public ManualAlgo() {;}
     @Override
     public String getInfo() {
-        return "This is a manual algorithm for manual controlling the PacMan using w,a,x,d (up,left,down,right).";
+        return "This is a manual algorithm for manual controlling the PacMan using w,a,s,d (up,left,down,right).";
     }
 
     @Override
@@ -17,7 +17,7 @@ public class ManualAlgo implements PacManAlgo{
             if (cmd != null) {
                 if (cmd == 'w') {ans = PacmanGame.UP;}
                 if (cmd == 'x') {ans = PacmanGame.DOWN;}
-                if (cmd == 'a') {ans = PacmanGame.LEFT;}
+                if (cmd == 's') {ans = PacmanGame.LEFT;}
                 if (cmd == 'd') {ans = PacmanGame.RIGHT;}
             }
             return  ans;
