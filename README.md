@@ -91,15 +91,15 @@ GUI Logic: Real-time score tracking and "Game Over" / "You Win" overlay screens.
 Below are the execution results for the 5 main scenarios (Levels 0-4), demonstrating the algorithm's consistency.
 
 Scenario 0:
-![img_4.png](img_4.png)
+![img_4.png](Sounds and Images/img_4.png)
 Scenario 1:
-![img_3.png](img_3.png)
+![img_3.png](Sounds and Images/img_3.png)
 Scenario 2:
-![img_2.png](img_2.png)
+![img_2.png](Sounds and Images/img_2.png)
 Scenario 3:
-![img_1.png](img_1.png)
+![img_1.png](Sounds and Images/img_1.png)
 Scenario 4:
-![img.png](img.png)
+![img.png](Sounds and Images/img.png)
 
 <div align="center">
 <b>Submitted by Eliav Damti</b>
