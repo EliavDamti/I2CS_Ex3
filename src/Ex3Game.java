@@ -191,7 +191,7 @@ public class Ex3Game implements PacmanGame {
         StdDraw.setYscale(0, height);
         StdDraw.enableDoubleBuffering();
 
-        playBackgroundMusic("Sounds and Images/pacman-sound.wav");
+        playBackgroundMusic("pacman-sound.wav");
 
         while (isRunning) {
             int moveDir = algo.move(this);
@@ -205,7 +205,7 @@ public class Ex3Game implements PacmanGame {
                 StdDraw.pause(300);
 
                 stopBackgroundMusic();
-                playSoundEffect("Sounds and Images/Win sound.WAV");
+                playSoundEffect("Win sound.WAV");
                 drawWinScreen();
                 isRunning = false;
                 break;
@@ -217,7 +217,7 @@ public class Ex3Game implements PacmanGame {
                 StdDraw.pause(500);
 
                 stopBackgroundMusic();
-                playSoundEffect("Sounds and Images/Death sound.WAV");
+                playSoundEffect("Death sound.WAV");
                 System.out.println("GAME OVER! Score: " + score);
                 drawLoseScreen();
                 isRunning = false;
@@ -369,7 +369,7 @@ public class Ex3Game implements PacmanGame {
         if (lastDir == Game.DOWN) angle = 270;
 
         try {
-            StdDraw.picture(pacX, pacY, "Sounds and Images/p1.png", 0.8, 0.8, angle);
+            StdDraw.picture(pacX, pacY, "p1.png", 0.8, 0.8, angle);
         } catch (Exception e) {
             StdDraw.setPenColor(Color.YELLOW);
             StdDraw.filledCircle(pacX, pacY, 0.4);
@@ -382,7 +382,7 @@ public class Ex3Game implements PacmanGame {
             double gy = Double.parseDouble(gData[1]) + 0.5;
 
             int imgNum = i % 4;
-            String ghostImg = "Sounds and Images/g" + imgNum + ".png";
+            String ghostImg = "g" + imgNum + ".png";
 
             try {
                 StdDraw.picture(gx, gy, ghostImg, 0.8, 0.8);
